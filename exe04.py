@@ -1,0 +1,5 @@
+frase = str(input('Digite uma frase: ')).strip().lower()
+print(f'O caracter "aA" aparece {frase.count("a")} vezes!')
+print(f'O caracter "a" aparece pela primeira vez na posição {frase.find("a")+1}')
+print(f'O caracter "a" aparece pela primeira vez na posição {frase.rfind("a")+1}')
+print(f'Frase tem {len(frase)} caracteres.')
